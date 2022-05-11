@@ -1,0 +1,187 @@
+
+body{
+    font-family: "Montserrat";
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Monteserrat-Bold";
+    font-weight:bolder; 
+
+}
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+    
+}
+
+#heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white ;
+    font-weight: bold;
+    margin-bottom:40px;
+
+
+}
+
+#title_div{
+    padding: 1% 10%;
+}
+
+/* Navbar */
+
+
+.navbar{
+    padding:0 0 4.5rem ;
+    margin-left: -12px;
+
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight: bold;
+    padding:0;
+}
+
+.nav-item{
+    padding:0 10px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    font-weight: lighter;
+}
+
+
+/* Downloads buttons */
+
+.download-button{
+    margin:5% 3% 5% 0%;
+    font-family: "Monteserrat";
+    margin-bottom:35px;
+}
+
+.title_img{
+    width:45%;
+    transform:rotate(25deg); 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top:-10px;
+}
+
+
+/* features */
+#features{
+    font-family:"Monsteserrat-Bold-700";
+    padding:7% 15%;
+
+}
+
+#features p{
+    color:#8f8f8f;
+    font-size:15px;
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+
+.image{
+    margin-bottom:1rem;
+    color:#ef8172;
+    padding:3.5%;
+}
+
+.image:hover{
+    color:#ff4c68;
+    height: auto;
+}
+
+#features h3{
+    margin-top: 20px;
+}
+
+.circle{
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #f50c2f);
+  filter: opacity(.5) drop-shadow(0 0 0 #f50c2f);
+}
+
+#testimonials{
+    font-family:"Monsteserrat";
+    padding:7% 15%;
+    text-align:center;
+    background-color:#ff4c68 ;
+    color:#fff;
+}
+
+#testimonials h2{
+    font-size:3rem;
+    line-height: 1.5;
+    font-weight:bolder;
+
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+.test-img{
+    width:15%;
+    border-radius:100%;
+}
+
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title_img{
+        position:static; 
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    font-family:"ubuntu";
+    font-weight:bolder;
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+}
+
+#cta h3{
+
+    font-size: 35px;
+    padding:10px;
+}
+
+#footer{
+    padding:20px;
+    font-family:"ubuntu";
+    /* font-weight:bolder; */
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+
+}
