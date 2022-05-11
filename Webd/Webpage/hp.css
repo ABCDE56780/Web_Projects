@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(12, 28, 90, 0.7),rgba(12, 28, 90, 0.7)),url("eduford_img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+    width:60px;
+}
+
+nav img:hover{
+    animation: links_bg 300ms ease-out;
+
+}
+
+@keyframes nav_img {
+    15% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.2, 1.1);
+      }
+      40% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(0.95, 0.95);
+      }
+      75% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.25, 1.05);
+      }
+      100% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1, 1);
+      }  
+}
+
+
+.nav{
+    flex:1;
+    text-align:right;
+}
+
+.nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 12px 18px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-size:15px;
+    color:white;
+}
+
+
+.nav ul li:hover {
+    /* background-image: url('https://scottyzen.sirv.com/Images/v/button.png'); */
+    background-image:linear-gradient(rgba(19, 61, 230, 0.7),rgba(19, 61, 230, 0.7)),url("eduford_img/buttons_4.png");
+    background-size: 100% 100%;
+    color: #27262c;
+    max-height:25px;
+    animation: links_bg 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+    font-weight: bold;
+}
+
+.nav ul li:active {
+  transform: translateY(4px);
+}
+
+
+.textbox{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+
+.textbox h1{
+    font-size: 60px;
+}
+
+.textbox p{
+    margin: 15px 0px 50px;
+    color: #fff;
+}
+
+.textbox a{
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+}
+
+.textbox a:hover{
+    border: 1px solid #3103ff;
+    /* background: rgba(19, 61, 230, 0.7); */
+    background-image:linear-gradient(rgba(19, 61, 230, 0.7),rgba(19, 61, 230, 0.7)),url("eduford_img/buttons_4.png");
+
+    /* transition: 0.5s; */
+    animation: links_bg 300ms ease-out;
+}
+
+
+@keyframes links_bg {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+
+
+@media(max-width: 700px){
+   .nav{
+     display:none;
+   }
+}
+
+
+    
