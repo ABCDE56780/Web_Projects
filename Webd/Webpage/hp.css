@@ -6,7 +6,7 @@
 .header{
     min-height:100vh;
     width:100%;
-    background-image:linear-gradient(rgba(12, 28, 90, 0.7),rgba(12, 28, 90, 0.7)),url("eduford_img/banner.jpg");
+    background-image:linear-gradient(rgba(12, 28, 90, 0.7),rgba(12, 28, 90, 0.7)),url("images/banner.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -71,7 +71,7 @@ nav img:hover{
 
 .nav ul li:hover {
     /* background-image: url('https://scottyzen.sirv.com/Images/v/button.png'); */
-    background-image:linear-gradient(rgba(19, 61, 230, 0.7),rgba(19, 61, 230, 0.7)),url("eduford_img/buttons_4.png");
+    background-image:linear-gradient(rgba(19, 61, 230, 0.7),rgba(19, 61, 230, 0.7)),url("images/buttons_4.png");
     background-size: 100% 100%;
     color: #27262c;
     max-height:25px;
@@ -116,7 +116,7 @@ nav img:hover{
 .textbox a:hover{
     border: 1px solid #3103ff;
     /* background: rgba(19, 61, 230, 0.7); */
-    background-image:linear-gradient(rgba(19, 61, 230, 0.7),rgba(19, 61, 230, 0.7)),url("eduford_img/buttons_4.png");
+    background-image:linear-gradient(rgba(19, 61, 230, 0.7),rgba(19, 61, 230, 0.7)),url("images/buttons_4.png");
 
     /* transition: 0.5s; */
     animation: links_bg 300ms ease-out;
